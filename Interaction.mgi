@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass
+        name="com.onedark.springbootstarter.user.UserRepository" x="525" y="103"/>
+    <CommunicationClass
+        name="com.onedark.springbootstarter.user.UserService" x="87" y="308">
+        <Association
+            destinationClassName="com.onedark.springbootstarter.user.UserRepository"
+            endpointName="userRepository" kind="Simple"/>
+        <Communication destinationClassName="com.onedark.springbootstarter.user.User"/>
+    </CommunicationClass>
+    <CommunicationClass name="com.onedark.springbootstarter.user.User"
+        x="117" y="141"/>
+    <CommunicationClass
+        name="com.onedark.springbootstarter.user.UserController" x="371" y="308">
+        <Association
+            destinationClassName="com.onedark.springbootstarter.user.UserService"
+            endpointName="userService" kind="Simple"/>
+        <Communication destinationClassName="com.onedark.springbootstarter.user.UserService"/>
+    </CommunicationClass>
+</ClassDiagram>

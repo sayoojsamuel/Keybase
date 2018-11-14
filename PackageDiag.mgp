@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PackageAnalysis>
+    <Package name="com.onedark" x="111" y="215"/>
+    <Package name="com.onedark.springbootstarter.courses" x="299" y="138"/>
+    <Package name="com.onedark.springbootstarter.security" x="70" y="272"/>
+    <Package name="com.onedark.springbootstarter.user" x="159" y="356">
+        <DependencyLink destination="com.onedark.springbootstarter.security"/>
+    </Package>
+</PackageAnalysis>
